@@ -9,4 +9,8 @@ class ProductsController < ApplicationController
         cart << @item.id 
     end 
 
+    def homepage
+        
+    end 
+
 end 
