@@ -5,12 +5,8 @@ class ProductsController < ApplicationController
     end 
 
     def add 
-        @item = Item.find(params[:id])
-        cart << @item.id 
-    end 
-
-    def homepage
         
+        @item = params[:product]
+        cart << @item
     end 
-
 end 
